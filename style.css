@@ -19,7 +19,7 @@ body {
     justify-items: stretch;
     grid-template-areas: "r r r r"
                     "u u u u"
-                    "d d d t"
+                    "d d d d"
                     "q q q q";
 }
 
@@ -46,6 +46,11 @@ body {
 
 li {
     font-size: 1.5em;
+    
+}
+
+.limenu {
+    color: black;
 }
 
 .redes {
@@ -75,6 +80,10 @@ li {
     height: 15vh;
 }
 
+.imglogo {
+    height: 100px;
+}
+
 h1 {
     font-size: 3em;
     font-weight: 600;
@@ -83,12 +92,6 @@ h1 {
 .dois {
     background-color: lightgreen;
     grid-column: 1/4;
-    height: 1600px;
-}
-
-.tres {
-    background-color: lightcoral;
-    grid-area: t;
     height: 1600px;
 }
 
