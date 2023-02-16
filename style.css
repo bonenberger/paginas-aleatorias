@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: lightcyan;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    margin: auto;
+    height: 100vh;
+    justify-items: stretch;
+    grid-template-areas: "r r r r"
+                    "u u u u"
+                    "d d d t"
+                    "q q q q";
+}
+
+.logo {
+    color: white;
+}
+
+.zero {
+    display: flex;
+    grid-area: r;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+.redes {
+    gap: 5px;
+}
+
+.iicone {
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.423);
+}
+
+.item {
+    border: 1px solid black;
+    /*width: 150px;
+    height: 150px;*/
+}
+
+.um {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffae00;
+    grid-area: u;
+    height: 15vh;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.dois {
+    background-color: lightgreen;
+    grid-column: 1/4;
+    height: 1600px;
+}
+
+.tres {
+    background-color: lightcoral;
+    grid-area: t;
+    height: 1600px;
+}
+
+.prod {
+    background-color: #ffae00;
+    text-align: center;
+    padding: 10px;
+}
+
+.quatro {
+    background-color: lightyellow;
+    grid-area: q;
+    height: 5vh;
+}
+
+.flut {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.iflut {
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.423);
+}
